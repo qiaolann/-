@@ -11,12 +11,7 @@ PEFT 高效微调: 采用参数高效微调，大幅降低训练资源消耗。
 支持量化加载: 支持 4-bit / 8-bit 量化，优化显存使用。
 
 🛠️ 安装
-克隆仓库:
-
-Bash
-
-git clone [你的仓库URL]
-cd [你的项目文件夹]
+克隆仓库：
 安装依赖:
 请确保已安装 Python 3.8+。核心依赖包括 datasets, transformers, peft, accelerate, torch 等。建议创建 requirements.txt 文件并安装：
 
